@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 20px;
+  width: 100%;
+  margin-top: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.idr {
+  width: 50%;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  height: 10vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 45px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  position: relative;
+  width: 50vh;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  height: 50vh;
+}
+
+body {
+  background: linear-gradient(to right, red, blue);
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 65px;
+}
+
+h3 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+p {
+  text-align: center;
+  float: right;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.biodata {
+  margin-top: 10px;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  height: 40vh;
+}
+
+.content img {
+  position: relative;
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+.content h2 {
+  text-align: left;
+  align-items: right;
+  display: flex;
+  font-size: 30px;
+}
+
+.content h1 {
+  text-align: center;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+}
+
+h1 {
+  justify-items: center;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  display: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: white;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.data-table {
+  margin: 1em 0;
+  min-width: 300px;
+  background-color: black;
+  color: white;
+  border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  overflow: hidden;
+}
+
+.data-table tr {
+  border-top: 1px solid#ddd;
+  border-bottom: 1px solid #ddd;
+  border-color: black;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  margin: 0.5em 1em;
+}
+
+.data-table th {
+  display: none;
+}
+
+.data-table td {
+  display: block;
+}
+
+.data-table td:first-child {
+  padding-top: 0.5em;
+}
+
+.data-table td:last-child {
+  padding-bottom: 0.5em;
+}
+
+.data-table td::before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+
+.pembelian:hover .dropdown-pembelian {
+  display: block;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: whitesmoke;
+  color: red;
+  border-radius: 20px;
+}
+
+.dropdown-pembelian {
+  display: none;
+}
+
+.data-table th,
+.data-table td::before {
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .data-table td::before {
+    display: none;
+  }
+  .data-table th,
+  .data-table td {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+    padding: 1em !important;
+  }
+  .data-table th:first-child,
+  .data-table td:last-child {
+    padding-left: 0;
+  }
+  .data-table th:last-child,
+  .data-table td:last-child {
+    padding-right: 0;
+  }
+}
